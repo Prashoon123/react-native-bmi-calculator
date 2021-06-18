@@ -1,0 +1,53 @@
+{
+  "name": "BmiCalculator",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "expo-linear-gradient": "^9.1.0",
+    "expo-status-bar": "^1.0.4",
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-elements": "^3.4.2",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-unimodules": "^0.13.3",
+    "react-native-vector-icons": "^8.1.0"
+  },
+  "react-native-unimodules": {
+    "android": {
+      "exclude": [
+        "expo-face-detector",
+        "expo-constants",
+        "expo-file-system",
+        "expo-image-loader",
+        "expo-permissions",
+        "unimodules-barcode-scanner-interface",
+        "unimodules-camera-interface",
+        "unimodules-constants-interface",
+        "unimodules-face-detector-interface",
+        "unimodules-file-system-interface",
+        "unimodules-sensors-interface",
+        "unimodules-task-manager-interface"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.6",
+    "@babel/runtime": "7.14.6",
+    "@react-native-community/eslint-config": "2.0.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.14.0",
+    "jest": "26.6.3",
+    "metro-react-native-babel-preset": "0.64.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
